@@ -1,9 +1,10 @@
-/* test*/ 
+
 
 body{
     margin: 0;
 }
 
 header{
-    background-color: rgb(0, 255, 21);
+    margin: 0;
+    background-color: #009a6f;
 }
