@@ -1,4 +1,7 @@
-
+@font-face {
+    font-family: "Orbitron";
+    src: url("./Fonts/Orbitron.ttf");
+  }
 
 body{
     margin: 0;
@@ -7,6 +10,10 @@ body{
 header{
     margin: 0;
     background-color: #009a6f;
+}
+
+header h1 p{
+    font-family: "Orbitron";
 }
 
 aside h4{
