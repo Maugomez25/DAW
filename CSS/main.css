@@ -1,10 +1,37 @@
 @font-face {
     font-family: "Orbitron";
-    src: url("./Fonts/Orbitron.ttf");
-    font-family: "Chivo";
-    src: url("./Fonts/Chivo.ttf");
+    src: url("./Fonts/Orbitron.ttf");    
   }
 
+@font-face{
+    font-family: "Chivo";
+    src: url("./Fonts/Chivo.ttf");
+}
+
+/*Selectores clase*/
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    padding: 30px 0px;
+}
+
+.wrapper{
+    width: 85%;
+    margin: 0px auto;
+}
+.orbitronFont{
+    font-family: "Orbitron";
+}
+
+/*Selector ID*/
+#aplicaciones{   
+    font-family: "Chivo";
+    font-size: 21px; 
+}
+
+/*Selectores Tag name*/
 body{
     margin: 0;
 }
@@ -14,15 +41,13 @@ header{
     background-color: #009a6f;
 }
 
+header p{
+    font-size: 15px;
+}
+
 p{
     text-align: justify;
 }
-
-.orbitronFont{
-    font-family: "Orbitron";
-}
-
-
 
 aside{
     float: right;
@@ -30,10 +55,12 @@ aside{
     height: 100%;
     background-color: #00b080;
     margin: 0;
+    
 }
 
 aside h4{
     font-family: "Chivo";
+    font-size: 21px;
 }
 
 aside img{
@@ -56,19 +83,33 @@ section{
 section p{
     margin-right: 25%;
     font-family: "Chivo";
+    font-size: 15px;
 }
 
 section h2{
     margin-top: 0;
     font-family: "Chivo";
+    font-size: 21px;
 }
 
-.center{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-    padding: 30px 0px;
+section ul{
+    padding: 0;
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+section ul li{
+    display: inline-block;    
+}
+
+section ul li a{
+    color: #022636;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section ul li a:hover{
+    color: #ffffff;
 }
 
 footer{
