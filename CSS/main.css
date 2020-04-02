@@ -17,6 +17,10 @@ header{
     font-family: "Orbitron";
 }
 
-aside h4{
-    color: white;
+aside{
+    float: right;
+    width: 20%;
+    background-color: #00b080;
+    padding: 0;
 }
+    
