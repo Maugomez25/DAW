@@ -10,9 +10,10 @@ body{
 header{
     margin: 0;
     background-color: #009a6f;
+    text-align: justify;
 }
 
-header h1 p{
+.orbitronFont{
     font-family: "Orbitron";
 }
 
