@@ -1,6 +1,8 @@
 @font-face {
     font-family: "Orbitron";
     src: url("./Fonts/Orbitron.ttf");
+    font-family: "Chivo";
+    src: url("./Fonts/Chivo.ttf");
   }
 
 body{
@@ -20,12 +22,18 @@ p{
     font-family: "Orbitron";
 }
 
+
+
 aside{
     float: right;
     width: 20%;
     height: 100%;
     background-color: #00b080;
-    padding: 0;
+    margin: 0;
+}
+
+aside h4{
+    font-family: "Chivo";
 }
 
 aside img{
@@ -35,17 +43,24 @@ aside img{
     margin-right: auto;
 }
 
+img{
+    margin: 30px;
+}
+
 section{
     background-color: #b5bdbb;
     padding-left: 5%;
+    padding-bottom: 1%;
 }
 
 section p{
     margin-right: 25%;
+    font-family: "Chivo";
 }
 
 section h2{
     margin-top: 0;
+    font-family: "Chivo";
 }
 
 .center{
