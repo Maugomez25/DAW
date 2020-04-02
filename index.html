@@ -44,25 +44,11 @@
 			
         </header>
 
-        <aside>
-            <!--Método de integración inline-->
-            <h4 style="text-align: center;">State of the art</h4>
-                <a href="https://youtu.be/CbQcSAcrw88" target="_blank">
-                    <img src="./images/robot1.jpg">
-                </a>
-                <a href="https://youtu.be/aijzVv6UeLQ" target="_blank">
-                    <img src="./images/robot2.jpg">
-                </a>
-                <a href="https://youtu.be/aijzVv6UeLQ" target="_blank">
-                    <img src="./images/robot4.jpg">
-                </a>
-        </aside>
-
         <!-- Contenido -->
-        <section>
+        <section class="columnLeft">
 
                 <article class="center">
-                    <img style="width: 400px;" src="./images/robot3.jpeg">
+                    <img style="width: 500px;" src="./images/robot3.jpeg">
                 </article>
 
                 <article>
@@ -84,65 +70,71 @@
                 
                 <article>        
                 <div id="aplicaciones">Aplications</div>
-                </br>
-					<ul style="font-family: Chivo; font-size: 15px; margin: 0;">
-                        <li><a href="https://www.farmonline.com.au/story/3374764/robots-sow-seeds-of-farming-future/" target="_blank">Sowing the seed</a>
-                            <ul>
-                            <br/>
-                                <li>Pros
-                                    <ul><li>An easy way to make sowing.</li></ul>
-                                    <ul><li>Optimizing repetitive hard work.</li></ul>
-                                    <ul><li>Exhaustive work can be done without any human efforts.</li></ul>                                          
-                                </li>
-                                <li>Cons
-                                    <ul><li>The battery could last not as much.</li></ul>
-                                    <ul><li>The container may be too small.</li></ul>
-                                    <ul><li>The road could be a challenge.</li></ul>                                    
-                                </li>
-                                <br/>
-                            </ul>
-                        </li>    
-                        <br/> <br/>                       
-						<li><a href="https://www.technologyreview.com/f/613237/a-robot-apple-picker-is-using-machine-vision-to-harvest-fruit-in-new-zealand/" target="_blank">Robot fruit picker</a>
-                            <ul>
-                            <br/>
-                                <li>Pros
-                                    <ul><li>It can be applied to multiple crops.</li></ul>
-                                    <ul><li>The robot can work throughout the day under the sun.</li></ul>
-                                    <ul><li>It deals with a repetitive work (collecting fruit).</li></ul>
-                                    <ul><li>The robot is capable of carrying a lot of weight.</li></ul>        
-                                </li>
-                                <li>Cons
-                                    <ul><li>The mechanism to get the fruit must be accurate and strong.</li></ul>
-                                    <ul><li>It incorporates a complex vision system.</li></ul>
-                                    <ul><li>The robot requires big batteries and a big power source.</li></ul>                                    
-                                </li>
-                                <br/>
-                            </ul>
-                        </li>
-                        <br> <br/>
-						<li><a href="https://www.purdue.edu/newsroom/releases/2019/Q3/autonomous-robots-enter-fields-to-collect-precise-soil-samples,-help-farmers-improve-yields,-reduce-environmental-impact,-save-money.html" target="_blank">Soil sampling Robot</a>
-                            <ul>
-                                <br/>
-                                <li>Pros
-                                    <ul><li>Can cover big land areas for more accurate sampling.</li></ul>
-                                    <ul><li>A better random factor leads to a better mineral.</li></ul>
-                                    <ul><li>Exhaustive work can be done without any human efforts.</li></ul>
-                                    <ul><li>Can use solar power to feed its batteries.</li></ul>        
-                                </li>
-                                <li>Cons
-                                    <ul><li>Picking tools must be clean before each sampling.</li></ul>
-                                    <ul><li>Must have enough room to carry all the samples.</li></ul>
-                                    <ul><li>Requires long lasting batteries.</li></ul>                                    
-                                </li>
-                                <br/>
-                            </ul>
-                        </li>
-                        <br>
-					</ul>
+                    <div class="wrapper">
+                        <ul style="font-family: Chivo; font-size: 15px; margin: 0;">
+                            <li style="margin-top: 15px; list-style-type: none;"><a href="https://www.farmonline.com.au/story/3374764/robots-sow-seeds-of-farming-future/" target="_blank">Sowing the seed</a>
+                                <ul>
+                                    <li class="columnTable">Pros
+                                        <ul><li>An easy way to make sowing.</li></ul>
+                                        <ul><li>Optimizing repetitive hard work.</li></ul>
+                                        <ul><li>Exhaustive work can be done without any human efforts.</li></ul>                                          
+                                    </li>
+                                    <li class="columnTable">Cons
+                                        <ul><li>The battery could last not as much.</li></ul>
+                                        <ul><li>The container may be too small.</li></ul>
+                                        <ul><li>The road could be a challenge.</li></ul>                                    
+                                    </li>
+                                </ul>
+                            </li>                          
+                            <li style="margin-top: 15px; list-style-type: none;"><a href="https://www.technologyreview.com/f/613237/a-robot-apple-picker-is-using-machine-vision-to-harvest-fruit-in-new-zealand/" target="_blank">Robot fruit picker</a>
+                                <ul>
+                                    <li class="columnTable">Pros
+                                        <ul><li>It can be applied to multiple crops.</li></ul>
+                                        <ul><li>The robot can work throughout the day under the sun.</li></ul>
+                                        <ul><li>It deals with a repetitive work (collecting fruit).</li></ul>
+                                        <ul><li>The robot is capable of carrying a lot of weight.</li></ul>        
+                                    </li>
+                                    <li class="columnTable">Cons
+                                        <ul><li>The mechanism to get the fruit must be accurate and strong.</li></ul>
+                                        <ul><li>It incorporates a complex vision system.</li></ul>
+                                        <ul><li>The robot requires big batteries and a big power source.</li></ul>                                    
+                                    </li>
+                                </ul>
+                            </li>
+                            <li style="margin-top: 15px; list-style-type: none;"><a href="https://www.purdue.edu/newsroom/releases/2019/Q3/autonomous-robots-enter-fields-to-collect-precise-soil-samples,-help-farmers-improve-yields,-reduce-environmental-impact,-save-money.html" target="_blank">Soil sampling Robot</a>
+                                <ul>
+                                    <li class="columnTable">Pros
+                                        <ul><li>Can cover big land areas for more accurate sampling.</li></ul>
+                                        <ul><li>A better random factor leads to a better mineral.</li></ul>
+                                        <ul><li>Exhaustive work can be done without any human efforts.</li></ul>
+                                        <ul><li>Can use solar power to feed its batteries.</li></ul>        
+                                    </li>
+                                    <li class="columnTable">Cons
+                                        <ul><li>Picking tools must be clean before each sampling.</li></ul>
+                                        <ul><li>Must have enough room to carry all the samples.</li></ul>
+                                        <ul><li>Requires long lasting batteries.</li></ul>                                    
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
                 </article>                  
 
         </section>
+
+        <aside class="columnRight">
+            <!--Método de integración inline-->
+            <h4 style="text-align: center;">State of the art</h4>
+                <a href="https://youtu.be/CbQcSAcrw88" target="_blank">
+                    <img src="./images/robot1.jpg">
+                </a>
+                <a href="https://youtu.be/aijzVv6UeLQ" target="_blank">
+                    <img src="./images/robot2.jpg">
+                </a>
+                <a href="https://youtu.be/aijzVv6UeLQ" target="_blank">
+                    <img src="./images/robot4.jpg">
+                </a>
+        </aside>
 
         <!-- Pie -->
         <footer>

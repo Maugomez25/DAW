@@ -17,10 +17,6 @@
     padding: 30px 0px;
 }
 
-.wrapper{
-    width: 85%;
-    margin: 0px auto;
-}
 .orbitronFont{
     font-family: "Orbitron";
 }
@@ -34,6 +30,7 @@
 /*Selectores Tag name*/
 body{
     margin: 0;
+    background-color: #b5bdbb;
 }
 
 header{
@@ -49,10 +46,21 @@ p{
     text-align: justify;
 }
 
+body .columnLeft{
+    display: inline-block;
+    width: 75%;
+    vertical-align: top;
+    
+}
+
+body .columnRight{
+    display: inline-block;
+    width: 19.5%;
+    height: auto;
+    vertical-align: top;
+}
+
 aside{
-    float: right;
-    width: 20%;
-    height: 100%;
     background-color: #00b080;
     margin: 0;
     
@@ -75,13 +83,12 @@ img{
 }
 
 section{
-    background-color: #b5bdbb;
     padding-left: 5%;
     padding-bottom: 1%;
 }
 
 section p{
-    margin-right: 25%;
+    margin-right: 5%;
     font-family: "Chivo";
     font-size: 15px;
 }
@@ -94,12 +101,23 @@ section h2{
 
 section ul{
     padding: 0;
-    list-style-type: none;
-    margin-right: 10px;
+    list-style-position: inside;
 }
-
+/*
 section ul li{
     display: inline-block;    
+}*/
+
+.wrapper{
+    width: 90%;
+    margin: 0px auto;
+}
+
+.columnTable{
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    padding-top: 5px;
 }
 
 section ul li a{
