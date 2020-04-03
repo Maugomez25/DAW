@@ -78,6 +78,10 @@ aside img{
     margin-right: auto;
 }
 
+aside img:hover{
+    width: 95%;
+}
+
 img{
     margin: 30px;
 }
